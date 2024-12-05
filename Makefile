@@ -247,7 +247,7 @@ check-builddep:
 		exit 1; \
 	fi
 
-$(SOFILE): check-builddep $(COMMONOBJS) $(OBJS)
+$(SOFILE): $(COMMONOBJS) $(OBJS)
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) -shared $(OBJS) $(LIBS) -o $@
 
 fe:
