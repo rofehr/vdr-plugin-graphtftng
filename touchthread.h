@@ -14,9 +14,9 @@
 #ifndef _TOUCHTHREAD_H_
 #define _TOUCHTHREAD_H_
 
-#include <vdr/thread.h>
-
 #include <common.h>
+
+#include <vdr/thread.h>
 
 //***************************************************************************
 // Class Touch Thread

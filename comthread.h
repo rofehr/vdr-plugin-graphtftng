@@ -14,12 +14,12 @@
 
 #include <vector>
 
+#include <renderer.h>
+#include <service.h>
+
 #include <vdr/plugin.h>
 #include <vdr/remote.h>
 #include <tcpchannel.h>
-
-#include <renderer.h>
-#include <service.h>
 
 using std::vector;
 

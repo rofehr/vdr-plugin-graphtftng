@@ -35,7 +35,7 @@ eTimerMatch Matches(const cTimer* ti, const cEventCopy* Event)
          else if (ti->StopTime() <= Event->StartTime() || Event->EndTime() <= ti->StartTime())
             overlap = 0;
          else
-            overlap = (min(ti->StopTime(), Event->EndTime()) - max(ti->StartTime(), Event->StartTime())) * FULLMATCH / max(Event->Duration(), 1);
+            overlap = (std::min(ti->StopTime(), Event->EndTime()) - std::max(ti->StartTime(), Event->StartTime())) * FULLMATCH / std::max(Event->Duration(), 1);
       }
       
       if (UseVps)
@@ -201,7 +201,7 @@ const char* cDisplayItem::variable(const char* name, const char* fmt, int& statu
       const cRecording* recording = 0;
 
 #if defined (APIVERSNUM) && (APIVERSNUM >= 20301)
- const cRecordings* recordings;
+      const cRecordings* recordings;
       {
       LOCK_RECORDINGS_READ;
       recordings = Recordings;

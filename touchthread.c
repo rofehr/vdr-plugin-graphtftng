@@ -22,12 +22,12 @@
 
 #include <unistd.h>
 
-#include <vdr/remote.h>
-#include <vdr/tools.h>
-
 #include "touchthread.h"
 #include "setup.h"
 #include "display.h"
+
+#include <vdr/remote.h>
+#include <vdr/tools.h>
 
 //***************************************************************************
 // Class Touch Thread

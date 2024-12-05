@@ -13,8 +13,8 @@
 
 #include <X11/Xlib.h>
 
-#include <vdr/thread.h>
 #include "imlibrenderer.h"
+#include <vdr/thread.h>
 
 //***************************************************************************
 // Class X Renderer

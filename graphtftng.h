@@ -16,13 +16,13 @@
 // Includes
 //***************************************************************************
 
-#include <vdr/plugin.h>
-#include <vdr/config.h>
-
 #include "common.h"
 #include "setup.h"
 #include "display.h"
 #include "HISTORY.h"
+
+#include <vdr/plugin.h>
+#include <vdr/config.h>
 
 //***************************************************************************
 // General

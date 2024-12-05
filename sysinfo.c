@@ -14,11 +14,11 @@
 #include <glibtop/cpu.h>
 #include <glibtop/mem.h>
 
+#include <sysinfo.h>
+
 #ifndef WITHOUT_VDR
 # include <vdr/tools.h>
 #endif
-
-#include <sysinfo.h>
 
 int Sysinfo::initialized = no;
 double Sysinfo::lastIdle = 0;

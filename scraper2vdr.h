@@ -4,10 +4,11 @@
 
 #include <string>
 #include <vector>
-#include <vdr/epg.h>
-#include <vdr/recording.h>
 
 #include <display.h>
+
+#include <vdr/epg.h>
+#include <vdr/recording.h>
 
 //***************************************************************************
 // Functions
